@@ -1,42 +1,39 @@
 # To-Do List Application
 
-## Project Overview
-This To-Do List application is a web-based tool that allows users to manage their daily tasks effectively. Built with HTML, Tailwind CSS, and JavaScript, it features CRUD (Create, Read, Update, Delete) operations implemented with jQuery.
+## Overview
+This To-Do List Application is a simple yet powerful tool to manage your daily tasks. It's built using HTML, CSS, and JavaScript, with styling provided by Tailwind CSS and interactivity powered by jQuery.
 
 ## Features
-- Add new tasks to the list
-- View all the tasks in an organized manner
-- Edit existing tasks
-- Delete tasks that are no longer needed
-- Responsive design using Tailwind CSS
-- Local storage integration to persist tasks
+- **Create Tasks**: Users can add new tasks with details including task name, description, and due date.
+- **View Tasks**: A modal window displays the list of tasks, providing a clear view of all items.
+- **Interactive UI**: The application features an interactive user interface, with buttons to add and view tasks.
+- **Responsive Design**: Thanks to Tailwind CSS, the design is responsive and works well on various screen sizes.
+- **Delete Tasks**: Users can delete tasks as needed.
 
-## Setup
-To set up this project locally, follow these steps:
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your browser to view the application.
-3. To modify styles, ensure Tailwind CSS is installed and compile the CSS using your preferred method.
+## How to Use
+1. **Add a Task**: 
+   - Fill in the 'Task Name' and 'Due Date' fields. 'Task Description' is optional.
+   - Click the 'Add Task' button to submit the task.
+2. **View Tasks**:
+   - Click on the 'Open Task List' button to view all the tasks.
+3. **Delete Tasks**:
+   - In the task list modal, click the 'X' button next to a task to delete it.
 
-## Usage
-- To add a task, enter the task in the input field and click the 'Add' button.
-- To edit a task, click the 'Edit' button next to the task, modify the text, and submit.
-- To delete a task, click the 'Delete' button next to the task you wish to remove.
+## Technical Details
+- **HTML**: Structured the application layout.
+- **Tailwind CSS**: Used for styling the application to ensure a modern and responsive design.
+- **JavaScript & jQuery**: Added interactivity to the application, handling task creation and manipulation.
 
-## Contributing
-We welcome contributions to this project. Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Commit your changes with meaningful commit messages.
-4. Push the changes to your fork.
-5. Submit a pull request to the original repository.
+## Future Enhancements
+- Implement task editing functionality.
+- Add task sorting and filtering options.
+- Integrate local storage or backend database to persist tasks.
 
-## Version Control with Git
-This project is managed using Git. Please ensure that you are familiar with Git workflows and best practices before contributing to the project.
+## Local Development
+To run the application locally:
+- Clone the repository to your local machine.
+- Open `index.html` in a web browser.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+---
 
-## Acknowledgments
-- This project is part of a puzzle challenge designed to showcase development skills.
-- Thanks to all contributors who have invested their time in improving this application.
-
+This `README.md` provides a comprehensive overview of your application, including how to use it and potential future enhancements. It also gives instructions for local development setup.
