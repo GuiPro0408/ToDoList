@@ -1,0 +1,15 @@
+.delete-task {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #dd2a2a;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.delete-task:hover {
+    transform: scale(1.2) translateY(-2px);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
